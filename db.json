@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "fname": "Sai",
+      "lname": "Harini",
+      "gender": "Female",
+      "email": "harini@gmail.com",
+      "mobile": "7898989898",
+      "id": 6
+    },
+    {
+      "fname": "Sai",
+      "lname": "Teja",
+      "gender": "Male",
+      "email": "sindhu@gmail.com",
+      "mobile": "7898877899",
+      "id": 7
+    },
+    {
+      "fname": "Hello",
+      "lname": "World",
+      "gender": "Female",
+      "email": "hello@gmail.com",
+      "mobile": "6787878787",
+      "id": 8
+    },
+    {
+      "fname": "Krishna",
+      "lname": "Sai",
+      "gender": "Male",
+      "email": "krishna@gmail.com",
+      "mobile": "8989898989",
+      "id": 9
+    },
+    {
+      "fname": "Sai",
+      "lname": "Harini",
+      "gender": "Female",
+      "email": "sai@gmail.com",
+      "mobile": "9515714831",
+      "id": 11
+    },
+    {
+      "fname": "Sai",
+      "lname": "Ram",
+      "gender": "Male",
+      "email": "sairam@gmail.com",
+      "mobile": "9898989898",
+      "id": 12
+    },
+    {
+      "fname": "Rani",
+      "lname": "Singh",
+      "gender": "Female",
+      "email": "rani@gmail.com",
+      "mobile": "8787678988",
+      "id": 13
+    },
+    {
+      "fname": "Kiran",
+      "lname": "Kumar",
+      "gender": "Male",
+      "email": "kumar@gmail.com",
+      "mobile": "8888888999",
+      "id": 14
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,13 @@
+.example-card {
+
+    display: inline-block;
+    min-width: 300px;
+    /* max-width: 400px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border:1px solid black; */
+  }
+
+#a{
+    margin-left: 100px;
+}

@@ -1,0 +1,15 @@
+<form align="center" (submit)="add()">
+   <mat-form-field  class="head" appearance="fill">
+      <input matInput placeholder="Enter Name" [(ngModel)]="name" name="name">
+      <button matSuffix><mat-icon>add</mat-icon></button>
+   </mat-form-field>
+</form>
+
+<form>
+   <div class="c" *ngFor="let aa of a; let i=index;">
+      <h1>{{i+1}}</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <h1 id="x">{{aa.name}}</h1>
+      <button mat-icon-button> <mat-icon (click)="openDialog(aa.name,i)" matSuffix>edit</mat-icon></button>
+      <button mat-icon-button> <mat-icon (click)="delete(i)" matSuffix>delete</mat-icon></button>
+   </div>
+</form>

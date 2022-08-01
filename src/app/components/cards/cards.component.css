@@ -1,0 +1,16 @@
+.example-card {
+    min-width: 300px;
+    max-width: 400px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border:1px solid black;
+  }
+  #male{
+    border:2px solid green;
+    color:green
+}
+#female{
+    border:2px solid red;
+    color:red;
+}

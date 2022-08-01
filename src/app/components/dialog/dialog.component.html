@@ -1,0 +1,9 @@
+<div class="a">
+<mat-form-field  class="a" appearance="fill">
+<input matInput placeholder="Enter Firstname" [(ngModel)]="data.name">
+</mat-form-field>
+<mat-dialog-actions>
+    <button mat-button mat-dialog-close (click)="closeDialog()">cancle</button>
+    <button mat-button (click)="update(data.name)">update</button>
+</mat-dialog-actions>
+</div>

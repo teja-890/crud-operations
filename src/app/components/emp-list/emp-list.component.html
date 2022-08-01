@@ -1,0 +1,29 @@
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Email</th>
+            <th scope="col">Mobile</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let a of data; index as i">
+            <td>{{i+1}}</td>
+            <td>{{a.fname}}</td>
+            <td>{{a.lname}}</td>
+            <td>{{a.gender}}</td>
+            <td>{{a.email}}</td>
+            <td>{{a.mobile}}</td>
+            <td>
+                <button type="submit" class="btn btn-info"  (click)="editdata(a.id)">Edit</button>
+                <button class="btn btn-danger mx-3"  (click)="deletedata(a.id)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+

@@ -1,0 +1,40 @@
+<form class="a" align="center"  [formGroup]="signup" #a="ngForm">
+
+    <mat-form-field class="b" appearance="fill">
+      <mat-label>Firstname</mat-label>
+      <input matInput placeholder="Enter Firstname" formControlName="fname">
+      <mat-error>firstname is required</mat-error>
+    </mat-form-field>
+    
+    <mat-form-field class="b" appearance="fill">
+      <mat-label>Lastname</mat-label>
+      <input matInput placeholder="Enter Lastname" formControlName="lname">
+      <mat-error>lastname is required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="b" appearance="fill">
+      <mat-label>Select Gender</mat-label>
+      <mat-select formControlName="gender">
+      <mat-option value="Male">Male</mat-option>
+      <mat-option value="Female">Female</mat-option>
+      </mat-select>
+      <mat-error>gender is required</mat-error>
+    </mat-form-field>
+  
+      <mat-form-field class="b" appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Enter Email" formControlName="email">
+        <mat-error>email is required</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field class="b" appearance="fill">
+        <mat-label>Mobile</mat-label>
+        <input matInput placeholder="Enter Mobile number" formControlName="mobile">
+        <mat-error>mobile is required</mat-error>
+      </mat-form-field>
+  
+     <!-- <button mat-raised-button color="primary" routerLink="">Close</button>  -->
+     <button mat-raised-button color="primary" [disabled]="signup.invalid" (click)="onSubmit(a.value)">Signup</button>
+   </form>
+
+   
